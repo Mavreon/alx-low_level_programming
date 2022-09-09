@@ -1,20 +1,20 @@
 #include <stdio.h>
-/**
+/*
  * main - main function
  * Return: 0
  */
 int main(void)
 {
-  int z = 0;
+	int num;
+	char letter;
 
-  for (z = 48; z <= 57; z++)
-  {
-    putchar(z);
-  }
-  for (z = 97; z <= 102;z++)
-  {
-    putchar(z)
-  }
-  putchar('\n');
-  return (0);
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
+
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
+	return (0);
 }

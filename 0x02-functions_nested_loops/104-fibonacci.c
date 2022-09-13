@@ -1,9 +1,5 @@
-/*
- * File: 104-fibonacci.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
+#Include "main.h"
 
 /**
  * main - Prints the first 98 Fibonacci numbers, starting with

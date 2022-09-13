@@ -1,9 +1,5 @@
-/*
- * File: 103-fibonacci.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Prints the sum of even-valued Fibonacci sequence

@@ -1,9 +1,5 @@
-/*
- * File: 101-natural.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Lists all the natural numbers below 1024 (excluded)
